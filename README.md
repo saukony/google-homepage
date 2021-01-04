@@ -1,0 +1,1 @@
+The purpose of this project is to recreate the html structure and the CSS style of Google's homepage.
