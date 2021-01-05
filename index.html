@@ -5,11 +5,15 @@
             display:inline;
             float: left;
             word-spacing: 10px;
+            padding-top: 10px;
+            padding-left: 20px;
         }
         .rightheader{
             display: inline;
             float: right;
             word-spacing: 10px;
+            padding-top: 10px;
+            padding-right: 20px;
         }
         .logo{
             display: flex;
@@ -27,7 +31,7 @@
         .searchbuttons{
             display: inline;
             position: relative;
-            top: 225px;
+            top: 250px;
             left: 50em;
             padding: 5px;
         }
@@ -67,6 +71,45 @@
         input[type="text"]:hover{
             box-shadow: 1px 1px 1px grey;
         }
+        #signin{
+            padding: 7px;
+            border-radius: 3px;
+            border: none;
+            font-family: Arial, Helvetica, sans-serif;
+            color: white;
+            background-color: rgb(0, 81, 255);
+        }
+        #signin:active{
+            background-color: rgb(0, 60, 255);
+            border: 10px;
+        }
+        #search{
+            color: rgb(56, 56, 56);
+            height: 35px;
+            border: 1px;
+            border-radius: 5px;
+        }
+        #lucky{
+            color: rgb(56, 56, 56);
+            height: 35px;
+            border: none;
+            border-radius: 5px;
+        }
+        #voicebutton{
+            width: 25px;
+            position: absolute;
+            top: 290px;
+            left: 1175px;
+        }
+        #searchicon{
+            width: 25px;
+            position: absolute;
+            top: 290px;
+            left: 718px;
+        }
+        #appsicon{
+            width: 30px;
+        }
     </style>
         <header>
            <div class="leftheader">
@@ -76,14 +119,17 @@
             <div class="rightheader">
                 <a href="">Gmail</a>
                 <a href="">Images</a> 
-                <button>Sign in</button>
+                <input type="image" src="https://lh3.googleusercontent.com/proxy/Xc-SNOA3bP7kF8V9OLp88zH3aHnP7wHPa6d7HMh6GBK0FfHf4DjjbnrwQyZCKbiddVRO-vuGQk-n0J0C_fpWbUVYatZYOWI9R61I1lpSnWETr2PInKD6BojXmJ2qr9YByp_B88xvFKtWQ0tLB9vUEfXkuURNyQ" id="appsicon">
+                <button id="signin"><strong>Sign in</strong></button>
             </div>
         </header>
             <body>
                 <div class="logo"><img src="https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png" alt="Google's company logo"></div>
-                <div class="searchbuttons"><button>Google Search</button></div>
-                <div class="searchbuttons"><button>I'm feeling lucky</button></div>
+                <div class="searchbuttons"><button id="search">Google Search</button></div>
+                <div class="searchbuttons"><button id="lucky">I'm feeling lucky</button></div>
                 <div class="searchbar"><input type="text"></div>
+                <div><input type="image" src="https://web.archive.org/web/20191130234609im_/https://www.gstatic.com/images/branding/googlemic/2x/googlemic_color_24dp.png" id="voicebutton"></div>
+                <div><img src="https://cdn1.iconfinder.com/data/icons/hawcons/32/698956-icon-111-search-512.png" id="searchicon"></div>
             </body>
             <footer>
                 <div class="leftfooter">
