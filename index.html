@@ -16,6 +16,7 @@
             justify-content: center;
             position: relative;
             top: 150px;
+            left: 45px;
         }
         .searchbar{
             display: flex;
@@ -33,13 +34,38 @@
         .leftfooter{
             position:fixed;
             bottom: 0;
-            word-spacing: 10px;    
+            word-spacing: 10px;   
         }
         .rightfooter{
             position: fixed;
             bottom: 0;
             left: 88%;
             word-spacing: 10px;
+        }
+        footer{
+            position: absolute;
+            bottom: 0px;
+            width: 99%;
+            height: 30px;
+            background-color: rgb(212, 209, 209);
+            border-top: 1px solid gray;
+        }
+        a{
+            color: rgb(56, 56, 56);
+            text-decoration: none;
+            font-size: 13px;
+            font-family: Arial, Helvetica, sans-serif; 
+        }
+        a:hover{
+            text-decoration: underline;
+        }
+        input[type="text"]{
+            width: 500px;
+            height: 30px;
+            border-radius: 20px;
+        }
+        input[type="text"]:hover{
+            box-shadow: 1px 1px 1px grey;
         }
     </style>
         <header>
@@ -55,8 +81,8 @@
         </header>
             <body>
                 <div class="logo"><img src="https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png" alt="Google's company logo"></div>
-                <div class="searchbuttons"><button>I'm feeling Lucky</button></div>
                 <div class="searchbuttons"><button>Google Search</button></div>
+                <div class="searchbuttons"><button>I'm feeling lucky</button></div>
                 <div class="searchbar"><input type="text"></div>
             </body>
             <footer>
